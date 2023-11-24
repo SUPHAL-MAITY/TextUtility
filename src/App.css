@@ -1,0 +1,121 @@
+
+
+html{
+  scroll-behavior: smooth;
+}
+.navbar{
+  width: 100%;
+}
+div.navbar{
+  padding: 0;
+  margin: 0;
+}
+
+.container  {
+  
+  
+  height: 80px;
+  width:100vw;
+  border: 2px solid grey;
+  
+}
+.container li {
+  display: flex;
+  flex-direction: row;
+  
+}ab
+
+.contentarea{
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+
+}
+.btn{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+
+
+
+
+/* enable darke mode */
+
+.dark_theme {
+  color:white;
+  background-color:#3b3636 ;
+
+}
+.dark_theme  .btn{
+  color:  #cdc4c4;
+  background-color:  #22654f ;
+  font-weight: bold;
+
+}
+.dark_theme  .btn:hover{
+  
+  background-color: rgb(41, 41, 27) ;
+  cursor: pointer; 
+}
+
+.dark_theme  .textarea{ 
+  color:white;
+  background-color:#272121 ;
+
+}
+
+
+/* light theme */
+
+.light_theme {
+  color:rgb(22, 1, 1);
+  background-color:#e9e2e2 ;
+  font-weight: bold;
+
+}
+.light_theme  .btn{
+  color: #150101;
+  background-color: #5ac3a0 ;
+  font-weight: bold;
+
+}
+.light_theme  .btn:hover{
+  
+  background-color: rgb(247, 237, 237) ;
+  cursor: pointer; 
+}
+.light_theme  .textarea{ 
+  color:rgb(11, 1, 1);
+  background-color: #c3a9a9 ;
+
+}
+
+/* navbar light different mode */
+
+.navbar .light_theme {
+  color:rgb(11, 1, 1);
+  background-color:   #e4d0d0;
+  max-width: 1220px;
+  height: 66px;
+  border-radius: 14px;
+
+
+}
+
+.navbar .dark_theme {
+  color:white;
+  background-color: #160101;
+  max-width: 1220px;
+  height: 66px;
+  border-radius: 14px;
+}
+
+
+
+
+
+
+
